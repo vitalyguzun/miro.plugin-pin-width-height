@@ -50,36 +50,36 @@
       <div class="input-container">
         <label class="miro-checkbox" for="pinned">
           <span>Pinned</span>
-          <input type="checkbox" id="pinned">
+          <input type="checkbox" id="pinned" data-autotest-id="plugin-pinned-input">
         </label>
       </div>
       <div class="input-container">
         <label class="miro-checkbox">
           <span>Width</span>
-          <input type="text" placeholder="px" id="width" />
+          <input type="text" placeholder="px" id="width" data-autotest-id="plugin-width-input"/>
         </label>
       </div>
       <div class="input-container">
         <label class="miro-checkbox">
           <span>Full width</span>
-          <input type="checkbox" checked="" id="full-width">
+          <input type="checkbox" checked="" id="full-width" data-autotest-id="plugin-full-width-input" />
         </label>
       </div>
       <div class="input-container">
         <label class="miro-checkbox">
           <span>Height</span>
-          <input type="text" placeholder="px" id="height" />
+          <input type="text" placeholder="px" id="height" data-autotest-id="plugin-height-input" />
         </label>
       </div>
       <div class="input-container">
         <label class="miro-checkbox">
           <span>Full height</span>
-          <input type="checkbox" checked="" id="full-height">
+          <input type="checkbox" checked="" id="full-height" data-autotest-id="plugin-full-height-input" />
         </label>
       </div>
       <div class="controls">
         <button onclick="clearInputs()">Clear</button>
-        <button onclick="saveAndReload()">Save</button>
+        <button onclick="saveAndReload()" data-autotest-id="plugin-submit-button">Save</button>
       </div>
     </div>
   <div>
